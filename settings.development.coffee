@@ -91,7 +91,7 @@ module.exports =
 
 	# Where your instance of ShareLaTeX can be found publicly. This is used
 	# when emails are sent out and in generated links:
-	siteUrl : 'http://localhost:3000'
+	siteUrl : 'http://localhost:3000/sharelatex'
 	
 	# The websocket layer of ShareLaTeX runs as separate service.
 	# When running locally or in development, you can point the client to this
@@ -99,7 +99,7 @@ module.exports =
 	# then websocketsUrl should be the same as siteUrl, with your reverse
 	# proxy responible for sending websocket traffic to the websocket service
 	# rather than connecting directly.
-	websocketsUrl: 'http://localhost:3026'
+	websocketsUrl: 'http://localhost:3026/sharelatex'
 	
 	# If provided, a sessionSecret is used to sign cookies so that they cannot be
 	# spoofed. This is recommended.
